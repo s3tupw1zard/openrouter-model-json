@@ -1,1 +1,87 @@
-{}
+{
+  "source": "openrouter",
+  "generated_by": "github-actions",
+  "allowlist": "config/all-models.json",
+  "tier": "free",
+  "tier_rules": {
+    "free": "completion_per_mtok_usd == 0",
+    "budget": "0 < completion_per_mtok_usd <= 2.50",
+    "standard": "2.50 < completion_per_mtok_usd <= 5.00",
+    "premium": "completion_per_mtok_usd > 5.00"
+  },
+  "count": 7,
+  "missing_count": 0,
+  "missing_models": [],
+  "models": [
+    {
+      "id": "arcee-ai/trinity-large-preview:free",
+      "name": "Arcee AI: Trinity Large Preview (free)",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 131000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_response_format": false,
+      "supports_reasoning": true
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "openrouter/healer-alpha",
+      "name": "Healer Alpha",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "openrouter/hunter-alpha",
+      "name": "Hunter Alpha",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "stepfun/step-3.5-flash:free",
+      "name": "StepFun: Step 3.5 Flash (free)",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_response_format": false,
+      "supports_reasoning": true
+    },
+    {
+      "id": "z-ai/glm-4.5-air:free",
+      "name": "Z.ai: GLM 4.5 Air (free)",
+      "prompt_per_mtok_usd": 0.0,
+      "completion_per_mtok_usd": 0.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": false,
+      "supports_reasoning": true
+    }
+  ]
+}
