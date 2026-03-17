@@ -1,0 +1,39 @@
+name: Update OpenRouter model lists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-model-lists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate tiered OpenRouter model lists
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python scripts/update_openrouter_model_tiers.py \
+            config/all-models.json \
+            output
+
+      - name: Commit updated JSON files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(models): update tiered OpenRouter model lists"
+          git push
