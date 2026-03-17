@@ -1,0 +1,37 @@
+{
+  "source": "openrouter",
+  "generated_by": "github-actions",
+  "allowlist": "config/all-models.json",
+  "tier": "standard",
+  "tier_rules": {
+    "free": "completion_per_mtok_usd == 0",
+    "budget": "0 < completion_per_mtok_usd <= 2.50",
+    "standard": "2.50 < completion_per_mtok_usd <= 5.00",
+    "premium": "completion_per_mtok_usd > 5.00"
+  },
+  "count": 2,
+  "missing_count": 0,
+  "missing_models": [],
+  "models": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": "Google: Gemini 3 Flash Preview",
+      "prompt_per_mtok_usd": 0.5,
+      "completion_per_mtok_usd": 3.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Anthropic: Claude Haiku 4.5",
+      "prompt_per_mtok_usd": 1.0,
+      "completion_per_mtok_usd": 5.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    }
+  ]
+}
