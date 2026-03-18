@@ -76,8 +76,8 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.26,
-      "completion_per_mtok_usd": 0.38,
+      "prompt_per_mtok_usd": 0.255,
+      "completion_per_mtok_usd": 0.4,
       "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,
@@ -156,7 +156,7 @@
     {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.25,
+      "prompt_per_mtok_usd": 0.2,
       "completion_per_mtok_usd": 1.2,
       "context_length": 196608,
       "supports_tools": true,
@@ -248,7 +248,7 @@
       "name": "Z.ai: GLM 5",
       "prompt_per_mtok_usd": 0.72,
       "completion_per_mtok_usd": 2.3,
-      "context_length": 202752,
+      "context_length": 80000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
