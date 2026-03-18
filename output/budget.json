@@ -216,8 +216,8 @@
     {
       "id": "z-ai/glm-4.7",
       "name": "Z.ai: GLM 4.7",
-      "prompt_per_mtok_usd": 0.38,
-      "completion_per_mtok_usd": 1.98,
+      "prompt_per_mtok_usd": 0.4,
+      "completion_per_mtok_usd": 1.75,
       "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
