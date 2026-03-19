@@ -10,8 +10,11 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 12,
-  "missing_count": 0,
-  "missing_models": [],
+  "missing_count": 2,
+  "missing_models": [
+    "openrouter/hunter-alpha",
+    "openrouter/healer-alpha"
+  ],
   "models": [
     {
       "id": "google/gemini-2.5-pro",

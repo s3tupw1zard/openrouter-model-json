@@ -10,8 +10,11 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 26,
-  "missing_count": 0,
-  "missing_models": [],
+  "missing_count": 2,
+  "missing_models": [
+    "openrouter/hunter-alpha",
+    "openrouter/healer-alpha"
+  ],
   "models": [
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -76,8 +79,8 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.255,
-      "completion_per_mtok_usd": 0.4,
+      "prompt_per_mtok_usd": 0.26,
+      "completion_per_mtok_usd": 0.38,
       "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,

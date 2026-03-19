@@ -9,9 +9,12 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 7,
-  "missing_count": 0,
-  "missing_models": [],
+  "count": 5,
+  "missing_count": 2,
+  "missing_models": [
+    "openrouter/hunter-alpha",
+    "openrouter/healer-alpha"
+  ],
   "models": [
     {
       "id": "arcee-ai/trinity-large-preview:free",
@@ -39,26 +42,6 @@
       "prompt_per_mtok_usd": 0.0,
       "completion_per_mtok_usd": 0.0,
       "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "openrouter/healer-alpha",
-      "name": "Healer Alpha",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "openrouter/hunter-alpha",
-      "name": "Hunter Alpha",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 1048576,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
