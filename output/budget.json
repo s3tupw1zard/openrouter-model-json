@@ -159,8 +159,8 @@
     {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.2,
-      "completion_per_mtok_usd": 1.17,
+      "prompt_per_mtok_usd": 0.19,
+      "completion_per_mtok_usd": 1.15,
       "context_length": 196608,
       "supports_tools": true,
       "supports_response_format": true,
@@ -239,7 +239,7 @@
     {
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.45,
+      "prompt_per_mtok_usd": 0.42,
       "completion_per_mtok_usd": 2.2,
       "context_length": 262144,
       "supports_tools": true,
