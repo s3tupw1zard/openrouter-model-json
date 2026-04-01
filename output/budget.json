@@ -147,6 +147,16 @@
       "supports_reasoning": true
     },
     {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "prompt_per_mtok_usd": 0.12,
+      "completion_per_mtok_usd": 1.0,
+      "context_length": 196608,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "qwen/qwen3-coder",
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "prompt_per_mtok_usd": 0.22,
@@ -155,16 +165,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
-    },
-    {
-      "id": "minimax/minimax-m2.5",
-      "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.16,
-      "completion_per_mtok_usd": 1.1,
-      "context_length": 196608,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
