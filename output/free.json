@@ -9,11 +9,12 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 5,
-  "missing_count": 2,
+  "count": 4,
+  "missing_count": 3,
   "missing_models": [
     "openrouter/hunter-alpha",
-    "openrouter/healer-alpha"
+    "openrouter/healer-alpha",
+    "stepfun/step-3.5-flash:free"
   ],
   "models": [
     {
@@ -44,16 +45,6 @@
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "stepfun/step-3.5-flash:free",
-      "name": "StepFun: Step 3.5 Flash (free)",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 256000,
-      "supports_tools": true,
-      "supports_response_format": false,
       "supports_reasoning": true
     },
     {

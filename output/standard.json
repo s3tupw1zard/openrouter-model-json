@@ -10,10 +10,11 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 2,
-  "missing_count": 2,
+  "missing_count": 3,
   "missing_models": [
     "openrouter/hunter-alpha",
-    "openrouter/healer-alpha"
+    "openrouter/healer-alpha",
+    "stepfun/step-3.5-flash:free"
   ],
   "models": [
     {

@@ -10,10 +10,11 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 26,
-  "missing_count": 2,
+  "missing_count": 3,
   "missing_models": [
     "openrouter/hunter-alpha",
-    "openrouter/healer-alpha"
+    "openrouter/healer-alpha",
+    "stepfun/step-3.5-flash:free"
   ],
   "models": [
     {
@@ -139,7 +140,7 @@
     {
       "id": "minimax/minimax-m2.1",
       "name": "MiniMax: MiniMax M2.1",
-      "prompt_per_mtok_usd": 0.27,
+      "prompt_per_mtok_usd": 0.29,
       "completion_per_mtok_usd": 0.95,
       "context_length": 196608,
       "supports_tools": true,
