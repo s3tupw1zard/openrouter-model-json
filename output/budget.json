@@ -31,7 +31,7 @@
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "prompt_per_mtok_usd": 0.03,
-      "completion_per_mtok_usd": 0.11,
+      "completion_per_mtok_usd": 0.14,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
