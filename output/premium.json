@@ -82,7 +82,7 @@
       "name": "Anthropic: Claude Sonnet 4",
       "prompt_per_mtok_usd": 3.0,
       "completion_per_mtok_usd": 15.0,
-      "context_length": 200000,
+      "context_length": 1000000,
       "supports_tools": true,
       "supports_response_format": false,
       "supports_reasoning": true
