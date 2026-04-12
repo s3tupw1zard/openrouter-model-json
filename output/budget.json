@@ -130,8 +130,8 @@
     {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
-      "prompt_per_mtok_usd": 0.12,
-      "completion_per_mtok_usd": 0.75,
+      "prompt_per_mtok_usd": 0.15,
+      "completion_per_mtok_usd": 0.8,
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
