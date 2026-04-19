@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 5,
+  "count": 4,
   "missing_count": 3,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -26,16 +26,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
-    },
-    {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 256000,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
