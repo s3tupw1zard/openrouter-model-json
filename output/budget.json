@@ -68,6 +68,16 @@
       "supports_reasoning": true
     },
     {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "prompt_per_mtok_usd": 0.252,
+      "completion_per_mtok_usd": 0.378,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
       "prompt_per_mtok_usd": 0.12,
@@ -108,16 +118,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "deepseek/deepseek-v3.2",
-      "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.259,
-      "completion_per_mtok_usd": 0.42,
-      "context_length": 163840,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "x-ai/grok-4.1-fast",
       "name": "xAI: Grok 4.1 Fast",
       "prompt_per_mtok_usd": 0.2,
@@ -148,16 +148,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "minimax/minimax-m2.5",
-      "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.118,
-      "completion_per_mtok_usd": 0.99,
-      "context_length": 196608,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "qwen/qwen3-coder",
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "prompt_per_mtok_usd": 0.22,
@@ -166,6 +156,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
+    },
+    {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "prompt_per_mtok_usd": 0.15,
+      "completion_per_mtok_usd": 1.2,
+      "context_length": 196608,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -218,21 +218,21 @@
       "supports_reasoning": false
     },
     {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.3827,
-      "completion_per_mtok_usd": 1.72,
-      "context_length": 262144,
+      "id": "z-ai/glm-4.7",
+      "name": "Z.ai: GLM 4.7",
+      "prompt_per_mtok_usd": 0.38,
+      "completion_per_mtok_usd": 1.74,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
     },
     {
-      "id": "z-ai/glm-4.7",
-      "name": "Z.ai: GLM 4.7",
-      "prompt_per_mtok_usd": 0.39,
-      "completion_per_mtok_usd": 1.75,
-      "context_length": 202752,
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.44,
+      "completion_per_mtok_usd": 2.0,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
