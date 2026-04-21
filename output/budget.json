@@ -250,9 +250,9 @@
     {
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
-      "prompt_per_mtok_usd": 0.72,
-      "completion_per_mtok_usd": 2.3,
-      "context_length": 80000,
+      "prompt_per_mtok_usd": 0.65,
+      "completion_per_mtok_usd": 2.08,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
