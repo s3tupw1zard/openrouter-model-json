@@ -149,16 +149,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "qwen/qwen3-coder",
-      "name": "Qwen: Qwen3 Coder 480B A35B",
-      "prompt_per_mtok_usd": 0.22,
-      "completion_per_mtok_usd": 1.0,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
-    },
-    {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
       "prompt_per_mtok_usd": 0.15,
@@ -227,6 +217,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "prompt_per_mtok_usd": 0.22,
+      "completion_per_mtok_usd": 1.8,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
     },
     {
       "id": "moonshotai/kimi-k2.5",
