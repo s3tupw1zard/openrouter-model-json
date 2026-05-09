@@ -61,8 +61,8 @@
     {
       "id": "xiaomi/mimo-v2-flash",
       "name": "Xiaomi: MiMo-V2-Flash",
-      "prompt_per_mtok_usd": 0.09,
-      "completion_per_mtok_usd": 0.29,
+      "prompt_per_mtok_usd": 0.1,
+      "completion_per_mtok_usd": 0.3,
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
