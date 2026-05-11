@@ -241,8 +241,8 @@
     {
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.44,
-      "completion_per_mtok_usd": 2.0,
+      "prompt_per_mtok_usd": 0.4,
+      "completion_per_mtok_usd": 1.98,
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
