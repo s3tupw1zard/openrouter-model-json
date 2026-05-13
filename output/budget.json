@@ -229,21 +229,21 @@
       "supports_reasoning": false
     },
     {
-      "id": "z-ai/glm-5",
-      "name": "Z.ai: GLM 5",
-      "prompt_per_mtok_usd": 0.6,
-      "completion_per_mtok_usd": 1.92,
-      "context_length": 202752,
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.4,
+      "completion_per_mtok_usd": 1.9,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
     },
     {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.4,
-      "completion_per_mtok_usd": 1.98,
-      "context_length": 262144,
+      "id": "z-ai/glm-5",
+      "name": "Z.ai: GLM 5",
+      "prompt_per_mtok_usd": 0.6,
+      "completion_per_mtok_usd": 1.92,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
