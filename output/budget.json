@@ -9,13 +9,15 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 26,
-  "missing_count": 4,
+  "count": 24,
+  "missing_count": 6,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
-    "arcee-ai/trinity-large-preview:free"
+    "arcee-ai/trinity-large-preview:free",
+    "x-ai/grok-4.1-fast",
+    "x-ai/grok-code-fast-1"
   ],
   "models": [
     {
@@ -23,7 +25,7 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "prompt_per_mtok_usd": 0.02,
       "completion_per_mtok_usd": 0.05,
-      "context_length": 16384,
+      "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
@@ -119,16 +121,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "x-ai/grok-4.1-fast",
-      "name": "xAI: Grok 4.1 Fast",
-      "prompt_per_mtok_usd": 0.2,
-      "completion_per_mtok_usd": 0.5,
-      "context_length": 2000000,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "prompt_per_mtok_usd": 0.11,
@@ -143,7 +135,7 @@
       "name": "MiniMax: MiniMax M2.1",
       "prompt_per_mtok_usd": 0.29,
       "completion_per_mtok_usd": 0.95,
-      "context_length": 196608,
+      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -163,7 +155,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "prompt_per_mtok_usd": 0.15,
       "completion_per_mtok_usd": 1.15,
-      "context_length": 196608,
+      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -174,16 +166,6 @@
       "prompt_per_mtok_usd": 0.25,
       "completion_per_mtok_usd": 1.5,
       "context_length": 1048576,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "x-ai/grok-code-fast-1",
-      "name": "xAI: Grok Code Fast 1",
-      "prompt_per_mtok_usd": 0.2,
-      "completion_per_mtok_usd": 1.5,
-      "context_length": 256000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -223,7 +205,7 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "prompt_per_mtok_usd": 0.22,
       "completion_per_mtok_usd": 1.8,
-      "context_length": 262144,
+      "context_length": 1048576,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false

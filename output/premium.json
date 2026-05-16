@@ -10,12 +10,14 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 12,
-  "missing_count": 4,
+  "missing_count": 6,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
-    "arcee-ai/trinity-large-preview:free"
+    "arcee-ai/trinity-large-preview:free",
+    "x-ai/grok-4.1-fast",
+    "x-ai/grok-code-fast-1"
   ],
   "models": [
     {
@@ -43,7 +45,7 @@
       "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
       "prompt_per_mtok_usd": 2.0,
       "completion_per_mtok_usd": 12.0,
-      "context_length": 1048576,
+      "context_length": 1048756,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
