@@ -33,7 +33,7 @@
     {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.03,
+      "prompt_per_mtok_usd": 0.029,
       "completion_per_mtok_usd": 0.14,
       "context_length": 131072,
       "supports_tools": true,
@@ -143,7 +143,7 @@
     {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "prompt_per_mtok_usd": 0.139,
+      "prompt_per_mtok_usd": 0.14,
       "completion_per_mtok_usd": 1.0,
       "context_length": 262144,
       "supports_tools": true,
