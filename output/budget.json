@@ -131,6 +131,16 @@
       "supports_reasoning": false
     },
     {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "prompt_per_mtok_usd": 0.15,
+      "completion_per_mtok_usd": 0.9,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "minimax/minimax-m2.1",
       "name": "MiniMax: MiniMax M2.1",
       "prompt_per_mtok_usd": 0.29,
@@ -146,16 +156,6 @@
       "prompt_per_mtok_usd": 0.14,
       "completion_per_mtok_usd": 1.0,
       "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "minimax/minimax-m2.5",
-      "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.15,
-      "completion_per_mtok_usd": 1.15,
-      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
