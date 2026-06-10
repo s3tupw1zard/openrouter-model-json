@@ -9,15 +9,16 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 3,
-  "missing_count": 6,
+  "count": 2,
+  "missing_count": 7,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
     "x-ai/grok-4.1-fast",
-    "x-ai/grok-code-fast-1"
+    "x-ai/grok-code-fast-1",
+    "z-ai/glm-4.5-air:free"
   ],
   "models": [
     {
@@ -38,16 +39,6 @@
       "context_length": 1000000,
       "supports_tools": true,
       "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "z-ai/glm-4.5-air:free",
-      "name": "Z.ai: GLM 4.5 Air (free)",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": false,
       "supports_reasoning": true
     }
   ]
