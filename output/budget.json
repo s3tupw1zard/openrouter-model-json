@@ -212,16 +212,6 @@
       "supports_reasoning": false
     },
     {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.4,
-      "completion_per_mtok_usd": 1.9,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
       "prompt_per_mtok_usd": 0.6,
@@ -237,6 +227,16 @@
       "prompt_per_mtok_usd": 0.25,
       "completion_per_mtok_usd": 2.0,
       "context_length": 400000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.375,
+      "completion_per_mtok_usd": 2.025,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
