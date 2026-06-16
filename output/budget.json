@@ -244,9 +244,9 @@
     {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
-      "prompt_per_mtok_usd": 0.39,
-      "completion_per_mtok_usd": 2.34,
-      "context_length": 262144,
+      "prompt_per_mtok_usd": 0.385,
+      "completion_per_mtok_usd": 2.45,
+      "context_length": 256000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
