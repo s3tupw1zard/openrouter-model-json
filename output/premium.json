@@ -10,12 +10,13 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 12,
-  "missing_count": 7,
+  "missing_count": 8,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
+    "xiaomi/mimo-v2-flash",
     "x-ai/grok-4.1-fast",
     "x-ai/grok-code-fast-1",
     "z-ai/glm-4.5-air:free"

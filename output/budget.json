@@ -9,13 +9,14 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 24,
-  "missing_count": 7,
+  "count": 23,
+  "missing_count": 8,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
+    "xiaomi/mimo-v2-flash",
     "x-ai/grok-4.1-fast",
     "x-ai/grok-code-fast-1",
     "z-ai/glm-4.5-air:free"
@@ -57,16 +58,6 @@
       "prompt_per_mtok_usd": 0.065,
       "completion_per_mtok_usd": 0.26,
       "context_length": 1000000,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "xiaomi/mimo-v2-flash",
-      "name": "Xiaomi: MiMo-V2-Flash",
-      "prompt_per_mtok_usd": 0.1,
-      "completion_per_mtok_usd": 0.3,
-      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
