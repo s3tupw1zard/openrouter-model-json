@@ -45,8 +45,8 @@
     {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.039,
-      "completion_per_mtok_usd": 0.18,
+      "prompt_per_mtok_usd": 0.03,
+      "completion_per_mtok_usd": 0.15,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -113,6 +113,16 @@
       "supports_reasoning": true
     },
     {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "prompt_per_mtok_usd": 0.12,
+      "completion_per_mtok_usd": 0.48,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "prompt_per_mtok_usd": 0.11,
@@ -121,16 +131,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
-    },
-    {
-      "id": "minimax/minimax-m2.5",
-      "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.15,
-      "completion_per_mtok_usd": 0.9,
-      "context_length": 204800,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
     },
     {
       "id": "minimax/minimax-m2.1",
