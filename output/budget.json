@@ -133,21 +133,21 @@
       "supports_reasoning": false
     },
     {
-      "id": "minimax/minimax-m2.1",
-      "name": "MiniMax: MiniMax M2.1",
-      "prompt_per_mtok_usd": 0.29,
-      "completion_per_mtok_usd": 0.95,
-      "context_length": 204800,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
       "prompt_per_mtok_usd": 0.14,
       "completion_per_mtok_usd": 1.0,
       "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "minimax/minimax-m2.1",
+      "name": "MiniMax: MiniMax M2.1",
+      "prompt_per_mtok_usd": 0.3,
+      "completion_per_mtok_usd": 1.2,
+      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
