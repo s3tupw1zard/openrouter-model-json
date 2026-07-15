@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 2,
+  "count": 5,
   "missing_count": 8,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -23,11 +23,41 @@
   ],
   "models": [
     {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.57,
+      "completion_per_mtok_usd": 2.85,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "google/gemini-3-flash-preview",
       "name": "Google: Gemini 3 Flash Preview",
       "prompt_per_mtok_usd": 0.5,
       "completion_per_mtok_usd": 3.0,
       "context_length": 1048576,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "prompt_per_mtok_usd": 0.45,
+      "completion_per_mtok_usd": 3.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "z-ai/glm-5",
+      "name": "Z.ai: GLM 5",
+      "prompt_per_mtok_usd": 0.95,
+      "completion_per_mtok_usd": 3.15,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
