@@ -105,9 +105,9 @@
     {
       "id": "z-ai/glm-4.7-flash",
       "name": "Z.ai: GLM 4.7 Flash",
-      "prompt_per_mtok_usd": 0.06,
+      "prompt_per_mtok_usd": 0.0605,
       "completion_per_mtok_usd": 0.4,
-      "context_length": 202752,
+      "context_length": 200000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
