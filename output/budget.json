@@ -105,9 +105,9 @@
     {
       "id": "z-ai/glm-4.7-flash",
       "name": "Z.ai: GLM 4.7 Flash",
-      "prompt_per_mtok_usd": 0.0605,
+      "prompt_per_mtok_usd": 0.06,
       "completion_per_mtok_usd": 0.4,
-      "context_length": 200000,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -115,7 +115,7 @@
     {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
-      "prompt_per_mtok_usd": 0.12,
+      "prompt_per_mtok_usd": 0.11,
       "completion_per_mtok_usd": 0.8,
       "context_length": 262144,
       "supports_tools": true,
