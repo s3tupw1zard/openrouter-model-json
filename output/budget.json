@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 20,
+  "count": 21,
   "missing_count": 8,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -105,9 +105,9 @@
     {
       "id": "z-ai/glm-4.7-flash",
       "name": "Z.ai: GLM 4.7 Flash",
-      "prompt_per_mtok_usd": 0.0605,
+      "prompt_per_mtok_usd": 0.06,
       "completion_per_mtok_usd": 0.4,
-      "context_length": 200000,
+      "context_length": 202752,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -208,6 +208,16 @@
       "prompt_per_mtok_usd": 0.25,
       "completion_per_mtok_usd": 2.0,
       "context_length": 400000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "prompt_per_mtok_usd": 0.39,
+      "completion_per_mtok_usd": 2.34,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
