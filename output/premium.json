@@ -47,7 +47,7 @@
       "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
       "prompt_per_mtok_usd": 2.0,
       "completion_per_mtok_usd": 12.0,
-      "context_length": 1048756,
+      "context_length": 1048576,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true

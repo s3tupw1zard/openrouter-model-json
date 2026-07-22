@@ -37,7 +37,7 @@
       "name": "NVIDIA: Nemotron 3 Super (free)",
       "prompt_per_mtok_usd": 0.0,
       "completion_per_mtok_usd": 0.0,
-      "context_length": 1000000,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
