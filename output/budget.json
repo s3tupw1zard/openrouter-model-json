@@ -35,8 +35,8 @@
     {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.03,
-      "completion_per_mtok_usd": 0.13,
+      "prompt_per_mtok_usd": 0.029,
+      "completion_per_mtok_usd": 0.14,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -133,16 +133,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "qwen/qwen3-coder",
-      "name": "Qwen: Qwen3 Coder 480B A35B",
-      "prompt_per_mtok_usd": 0.3,
-      "completion_per_mtok_usd": 1.0,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
-    },
-    {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
       "prompt_per_mtok_usd": 0.14,
@@ -171,6 +161,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "prompt_per_mtok_usd": 0.38,
+      "completion_per_mtok_usd": 1.55,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
     },
     {
       "id": "qwen/qwen3.5-plus-02-15",
