@@ -113,16 +113,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "qwen/qwen3-coder-next",
-      "name": "Qwen: Qwen3 Coder Next",
-      "prompt_per_mtok_usd": 0.11,
-      "completion_per_mtok_usd": 0.8,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
-    },
-    {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
       "prompt_per_mtok_usd": 0.15,
@@ -131,6 +121,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
+    },
+    {
+      "id": "qwen/qwen3-coder-next",
+      "name": "Qwen: Qwen3 Coder Next",
+      "prompt_per_mtok_usd": 0.18,
+      "completion_per_mtok_usd": 0.9,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
     },
     {
       "id": "qwen/qwen3-coder",
