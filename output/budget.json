@@ -45,7 +45,7 @@
     {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.037,
+      "prompt_per_mtok_usd": 0.03,
       "completion_per_mtok_usd": 0.17,
       "context_length": 131072,
       "supports_tools": true,
