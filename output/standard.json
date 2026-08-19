@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 3,
+  "count": 2,
   "missing_count": 8,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -22,16 +22,6 @@
     "z-ai/glm-4.5-air:free"
   ],
   "models": [
-    {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.57,
-      "completion_per_mtok_usd": 2.85,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
     {
       "id": "google/gemini-3-flash-preview",
       "name": "Google: Gemini 3 Flash Preview",
