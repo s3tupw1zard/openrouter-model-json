@@ -125,8 +125,8 @@
     {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.225,
-      "completion_per_mtok_usd": 0.9,
+      "prompt_per_mtok_usd": 0.27,
+      "completion_per_mtok_usd": 0.95,
       "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
