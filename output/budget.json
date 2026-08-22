@@ -75,8 +75,8 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.269,
-      "completion_per_mtok_usd": 0.4,
+      "prompt_per_mtok_usd": 0.26,
+      "completion_per_mtok_usd": 0.38,
       "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,
@@ -123,16 +123,6 @@
       "supports_reasoning": false
     },
     {
-      "id": "minimax/minimax-m2.5",
-      "name": "MiniMax: MiniMax M2.5",
-      "prompt_per_mtok_usd": 0.27,
-      "completion_per_mtok_usd": 0.95,
-      "context_length": 204800,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "qwen/qwen3-coder",
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "prompt_per_mtok_usd": 0.3,
@@ -141,6 +131,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
+    },
+    {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "prompt_per_mtok_usd": 0.27,
+      "completion_per_mtok_usd": 1.08,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
     },
     {
       "id": "minimax/minimax-m2.1",
