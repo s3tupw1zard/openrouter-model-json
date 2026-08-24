@@ -9,29 +9,20 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 2,
-  "missing_count": 8,
+  "count": 1,
+  "missing_count": 9,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
     "xiaomi/mimo-v2-flash",
+    "nvidia/nemotron-3-nano-30b-a3b:free",
     "x-ai/grok-4.1-fast",
     "x-ai/grok-code-fast-1",
     "z-ai/glm-4.5-air:free"
   ],
   "models": [
-    {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 256000,
-      "supports_tools": true,
-      "supports_response_format": false,
-      "supports_reasoning": true
-    },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
       "name": "NVIDIA: Nemotron 3 Super (free)",
