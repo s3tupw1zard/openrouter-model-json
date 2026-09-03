@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 23,
+  "count": 22,
   "missing_count": 9,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -64,6 +64,16 @@
       "supports_reasoning": true
     },
     {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "prompt_per_mtok_usd": 0.1,
+      "completion_per_mtok_usd": 0.32,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
+    },
+    {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "prompt_per_mtok_usd": 0.269,
@@ -102,16 +112,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
-    },
-    {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.71,
-      "completion_per_mtok_usd": 0.71,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
     },
     {
       "id": "qwen/qwen3-coder-next",
@@ -228,16 +228,6 @@
       "name": "MoonshotAI: Kimi K2.5",
       "prompt_per_mtok_usd": 0.45,
       "completion_per_mtok_usd": 2.25,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "name": "Qwen: Qwen3.5 397B A17B",
-      "prompt_per_mtok_usd": 0.39,
-      "completion_per_mtok_usd": 2.34,
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
