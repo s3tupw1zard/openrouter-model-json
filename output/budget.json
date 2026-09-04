@@ -114,6 +114,16 @@
       "supports_reasoning": true
     },
     {
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "prompt_per_mtok_usd": 0.08,
+      "completion_per_mtok_usd": 0.75,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "prompt_per_mtok_usd": 0.12,
@@ -149,16 +159,6 @@
       "prompt_per_mtok_usd": 0.3,
       "completion_per_mtok_usd": 1.2,
       "context_length": 204800,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "qwen/qwen3.5-35b-a3b",
-      "name": "Qwen: Qwen3.5-35B-A3B",
-      "prompt_per_mtok_usd": 0.25,
-      "completion_per_mtok_usd": 1.25,
-      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
