@@ -44,16 +44,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.037,
-      "completion_per_mtok_usd": 0.17,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "prompt_per_mtok_usd": 0.065,
@@ -109,6 +99,16 @@
       "prompt_per_mtok_usd": 0.0605,
       "completion_per_mtok_usd": 0.4,
       "context_length": 200000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "prompt_per_mtok_usd": 0.15,
+      "completion_per_mtok_usd": 0.6,
+      "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
