@@ -64,16 +64,6 @@
       "supports_reasoning": false
     },
     {
-      "id": "deepseek/deepseek-v3.2",
-      "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.269,
-      "completion_per_mtok_usd": 0.4,
-      "context_length": 163840,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
       "prompt_per_mtok_usd": 0.1,
@@ -99,6 +89,16 @@
       "prompt_per_mtok_usd": 0.0605,
       "completion_per_mtok_usd": 0.4,
       "context_length": 200000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "prompt_per_mtok_usd": 0.28,
+      "completion_per_mtok_usd": 0.42,
+      "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -156,8 +156,8 @@
     {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "prompt_per_mtok_usd": 0.3125,
-      "completion_per_mtok_usd": 1.25,
+      "prompt_per_mtok_usd": 0.1625,
+      "completion_per_mtok_usd": 1.3,
       "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
