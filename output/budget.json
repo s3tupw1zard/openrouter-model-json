@@ -64,16 +64,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.1,
-      "completion_per_mtok_usd": 0.32,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
       "prompt_per_mtok_usd": 0.1,
@@ -106,12 +96,22 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.28,
+      "prompt_per_mtok_usd": 0.259,
       "completion_per_mtok_usd": 0.42,
       "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "prompt_per_mtok_usd": 0.22,
+      "completion_per_mtok_usd": 0.5,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
     },
     {
       "id": "qwen/qwen3-coder-next",
