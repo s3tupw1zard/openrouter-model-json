@@ -64,16 +64,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.1,
-      "completion_per_mtok_usd": 0.32,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": false
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
       "prompt_per_mtok_usd": 0.1,
@@ -114,6 +104,26 @@
       "supports_reasoning": true
     },
     {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "prompt_per_mtok_usd": 0.22,
+      "completion_per_mtok_usd": 0.5,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": false
+    },
+    {
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "prompt_per_mtok_usd": 0.08,
+      "completion_per_mtok_usd": 0.75,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "prompt_per_mtok_usd": 0.12,
@@ -132,16 +142,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
-    },
-    {
-      "id": "qwen/qwen3.5-35b-a3b",
-      "name": "Qwen: Qwen3.5-35B-A3B",
-      "prompt_per_mtok_usd": 0.15,
-      "completion_per_mtok_usd": 1.0,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
     },
     {
       "id": "minimax/minimax-m2.5",
