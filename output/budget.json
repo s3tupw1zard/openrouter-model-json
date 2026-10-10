@@ -94,16 +94,6 @@
       "supports_reasoning": true
     },
     {
-      "id": "deepseek/deepseek-v3.2",
-      "name": "DeepSeek: DeepSeek V3.2",
-      "prompt_per_mtok_usd": 0.259,
-      "completion_per_mtok_usd": 0.42,
-      "context_length": 163840,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
       "prompt_per_mtok_usd": 0.22,
@@ -119,6 +109,16 @@
       "prompt_per_mtok_usd": 0.08,
       "completion_per_mtok_usd": 0.75,
       "context_length": 262144,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "prompt_per_mtok_usd": 0.259,
+      "completion_per_mtok_usd": 0.8,
+      "context_length": 163840,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
@@ -224,21 +224,21 @@
       "supports_reasoning": true
     },
     {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.45,
-      "completion_per_mtok_usd": 2.25,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "google/gemini-2.5-flash",
       "name": "Google: Gemini 2.5 Flash",
       "prompt_per_mtok_usd": 0.3,
       "completion_per_mtok_usd": 2.5,
       "context_length": 1048576,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.5,
+      "completion_per_mtok_usd": 2.5,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
