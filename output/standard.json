@@ -10,7 +10,7 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 4,
-  "missing_count": 9,
+  "missing_count": 10,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
@@ -20,7 +20,8 @@
     "nvidia/nemotron-3-nano-30b-a3b:free",
     "x-ai/grok-4.1-fast",
     "x-ai/grok-code-fast-1",
-    "z-ai/glm-4.5-air:free"
+    "z-ai/glm-4.5-air:free",
+    "anthropic/claude-sonnet-4"
   ],
   "models": [
     {
