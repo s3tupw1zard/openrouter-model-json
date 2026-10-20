@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 23,
+  "count": 22,
   "missing_count": 10,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -193,16 +193,6 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
-    },
-    {
-      "id": "z-ai/glm-5",
-      "name": "Z.ai: GLM 5",
-      "prompt_per_mtok_usd": 0.6,
-      "completion_per_mtok_usd": 1.92,
-      "context_length": 204800,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
     },
     {
       "id": "z-ai/glm-4.7",
