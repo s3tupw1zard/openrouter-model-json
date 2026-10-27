@@ -9,11 +9,12 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 1,
-  "missing_count": 10,
+  "count": 0,
+  "missing_count": 11,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
+    "nvidia/nemotron-3-super-120b-a12b:free",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
     "xiaomi/mimo-v2-flash",
@@ -23,16 +24,5 @@
     "z-ai/glm-4.5-air:free",
     "anthropic/claude-sonnet-4"
   ],
-  "models": [
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "prompt_per_mtok_usd": 0.0,
-      "completion_per_mtok_usd": 0.0,
-      "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    }
-  ]
+  "models": []
 }
