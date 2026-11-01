@@ -26,6 +26,16 @@
   ],
   "models": [
     {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "prompt_per_mtok_usd": 0.021,
+      "completion_per_mtok_usd": 0.079,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
       "prompt_per_mtok_usd": 0.05,
@@ -38,8 +48,8 @@
     {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.018,
-      "completion_per_mtok_usd": 0.09,
+      "prompt_per_mtok_usd": 0.03,
+      "completion_per_mtok_usd": 0.13,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -101,16 +111,6 @@
       "prompt_per_mtok_usd": 0.0605,
       "completion_per_mtok_usd": 0.4,
       "context_length": 200000,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.15,
-      "completion_per_mtok_usd": 0.6,
-      "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
