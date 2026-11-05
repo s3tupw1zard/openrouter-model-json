@@ -9,14 +9,15 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 21,
-  "missing_count": 11,
+  "count": 20,
+  "missing_count": 12,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "nvidia/nemotron-3-super-120b-a12b:free",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
+    "minimax/minimax-m2.1",
     "xiaomi/mimo-v2-flash",
     "nvidia/nemotron-3-nano-30b-a3b:free",
     "x-ai/grok-4.1-fast",
@@ -26,16 +27,6 @@
   ],
   "models": [
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.012,
-      "completion_per_mtok_usd": 0.043,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
       "prompt_per_mtok_usd": 0.05,
@@ -44,6 +35,16 @@
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": false
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "prompt_per_mtok_usd": 0.028,
+      "completion_per_mtok_usd": 0.104,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -108,8 +109,8 @@
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.2,
-      "completion_per_mtok_usd": 0.52,
+      "prompt_per_mtok_usd": 0.59,
+      "completion_per_mtok_usd": 0.79,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -151,16 +152,6 @@
       "prompt_per_mtok_usd": 0.14,
       "completion_per_mtok_usd": 1.0,
       "context_length": 262144,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "minimax/minimax-m2.1",
-      "name": "MiniMax: MiniMax M2.1",
-      "prompt_per_mtok_usd": 0.3,
-      "completion_per_mtok_usd": 1.2,
-      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true

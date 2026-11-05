@@ -10,13 +10,14 @@
     "premium": "completion_per_mtok_usd > 5.00"
   },
   "count": 11,
-  "missing_count": 11,
+  "missing_count": 12,
   "missing_models": [
     "openrouter/hunter-alpha",
     "openrouter/healer-alpha",
     "nvidia/nemotron-3-super-120b-a12b:free",
     "stepfun/step-3.5-flash:free",
     "arcee-ai/trinity-large-preview:free",
+    "minimax/minimax-m2.1",
     "xiaomi/mimo-v2-flash",
     "nvidia/nemotron-3-nano-30b-a3b:free",
     "x-ai/grok-4.1-fast",
