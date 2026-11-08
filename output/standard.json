@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 4,
+  "count": 5,
   "missing_count": 12,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -42,6 +42,16 @@
       "prompt_per_mtok_usd": 1.0,
       "completion_per_mtok_usd": 3.2,
       "context_length": 204800,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "prompt_per_mtok_usd": 0.532,
+      "completion_per_mtok_usd": 3.325,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
