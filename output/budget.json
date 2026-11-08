@@ -29,8 +29,8 @@
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
-      "prompt_per_mtok_usd": 0.05,
-      "completion_per_mtok_usd": 0.08,
+      "prompt_per_mtok_usd": 0.02,
+      "completion_per_mtok_usd": 0.04,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -39,8 +39,8 @@
     {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.027,
-      "completion_per_mtok_usd": 0.099,
+      "prompt_per_mtok_usd": 0.019,
+      "completion_per_mtok_usd": 0.071,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
