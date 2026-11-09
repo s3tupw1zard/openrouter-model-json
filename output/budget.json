@@ -39,8 +39,8 @@
     {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.018,
-      "completion_per_mtok_usd": 0.09,
+      "prompt_per_mtok_usd": 0.03,
+      "completion_per_mtok_usd": 0.13,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -151,7 +151,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "prompt_per_mtok_usd": 0.3,
       "completion_per_mtok_usd": 1.2,
-      "context_length": 204800,
+      "context_length": 200000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
