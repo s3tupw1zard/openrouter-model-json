@@ -37,20 +37,10 @@
       "supports_reasoning": false
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "prompt_per_mtok_usd": 0.019,
-      "completion_per_mtok_usd": 0.071,
-      "context_length": 131072,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.03,
-      "completion_per_mtok_usd": 0.13,
+      "prompt_per_mtok_usd": 0.018,
+      "completion_per_mtok_usd": 0.09,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -102,6 +92,16 @@
       "prompt_per_mtok_usd": 0.0605,
       "completion_per_mtok_usd": 0.4,
       "context_length": 200000,
+      "supports_tools": true,
+      "supports_response_format": true,
+      "supports_reasoning": true
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "prompt_per_mtok_usd": 0.15,
+      "completion_per_mtok_usd": 0.6,
+      "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
