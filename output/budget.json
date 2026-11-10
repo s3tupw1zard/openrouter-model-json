@@ -109,8 +109,8 @@
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.59,
-      "completion_per_mtok_usd": 0.79,
+      "prompt_per_mtok_usd": 0.71,
+      "completion_per_mtok_usd": 0.71,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
