@@ -37,21 +37,21 @@
       "supports_reasoning": true
     },
     {
-      "id": "z-ai/glm-5",
-      "name": "Z.ai: GLM 5",
-      "prompt_per_mtok_usd": 1.0,
-      "completion_per_mtok_usd": 3.2,
-      "context_length": 204800,
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "prompt_per_mtok_usd": 0.45,
+      "completion_per_mtok_usd": 3.0,
+      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
     },
     {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "name": "Qwen: Qwen3.5 397B A17B",
-      "prompt_per_mtok_usd": 0.6,
-      "completion_per_mtok_usd": 3.6,
-      "context_length": 262144,
+      "id": "z-ai/glm-5",
+      "name": "Z.ai: GLM 5",
+      "prompt_per_mtok_usd": 1.0,
+      "completion_per_mtok_usd": 3.2,
+      "context_length": 204800,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
