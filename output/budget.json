@@ -37,21 +37,21 @@
       "supports_reasoning": false
     },
     {
-      "id": "qwen/qwen3.5-flash-02-23",
-      "name": "Qwen: Qwen3.5-Flash",
-      "prompt_per_mtok_usd": 0.065,
-      "completion_per_mtok_usd": 0.26,
-      "context_length": 1000000,
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "prompt_per_mtok_usd": 0.03,
+      "completion_per_mtok_usd": 0.13,
+      "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
     },
     {
-      "id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b",
-      "prompt_per_mtok_usd": 0.075,
-      "completion_per_mtok_usd": 0.3,
-      "context_length": 131072,
+      "id": "qwen/qwen3.5-flash-02-23",
+      "name": "Qwen: Qwen3.5-Flash",
+      "prompt_per_mtok_usd": 0.065,
+      "completion_per_mtok_usd": 0.26,
+      "context_length": 1000000,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
