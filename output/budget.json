@@ -9,7 +9,7 @@
     "standard": "2.50 < completion_per_mtok_usd <= 5.00",
     "premium": "completion_per_mtok_usd > 5.00"
   },
-  "count": 20,
+  "count": 19,
   "missing_count": 12,
   "missing_models": [
     "openrouter/hunter-alpha",
@@ -109,8 +109,8 @@
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "prompt_per_mtok_usd": 0.71,
-      "completion_per_mtok_usd": 0.71,
+      "prompt_per_mtok_usd": 0.59,
+      "completion_per_mtok_usd": 0.79,
       "context_length": 131072,
       "supports_tools": true,
       "supports_response_format": true,
@@ -212,16 +212,6 @@
       "prompt_per_mtok_usd": 0.3,
       "completion_per_mtok_usd": 2.5,
       "context_length": 1048576,
-      "supports_tools": true,
-      "supports_response_format": true,
-      "supports_reasoning": true
-    },
-    {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "prompt_per_mtok_usd": 0.5,
-      "completion_per_mtok_usd": 2.5,
-      "context_length": 262144,
       "supports_tools": true,
       "supports_response_format": true,
       "supports_reasoning": true
